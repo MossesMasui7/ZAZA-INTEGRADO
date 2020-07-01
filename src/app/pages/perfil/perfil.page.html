@@ -1,0 +1,54 @@
+<ion-content class="background" pandding>
+
+    <ion-grid>
+        <legend class="titulo">Saul Carrillo</legend><br>
+        <ion-row class="img-div">
+            <img (click)="imgSelect()" class="img-add" src="{{Img}}" alt="">
+
+        </ion-row>
+        <ion-row>
+            <ion-col col-12>
+                <ion-label>Insignias</ion-label>
+                <ion-item>
+                    <ion-input type="text" [(ngModel)]="marca" placeholder=""></ion-input>
+                </ion-item><br>
+            </ion-col>
+
+        </ion-row>
+        <ion-row>
+            <ion-col col-12>
+                <ion-label>Nivel</ion-label>
+                <ion-item>
+                    <ion-input type="text" [(ngModel)]="modelo" placeholder=""></ion-input>
+                </ion-item><br>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-12>
+                <ion-label>Puntos</ion-label>
+                <ion-item>
+                    <ion-input type="text" [(ngModel)]="modelo" placeholder=""></ion-input>
+                </ion-item><br>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-12>
+                <ion-label>Seguidores</ion-label>
+                <ion-item>
+                    <ion-input type="text" [(ngModel)]="modelo" placeholder=""></ion-input>
+                </ion-item><br>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col col-12>
+                <ion-label>Seguidos</ion-label>
+                <ion-item>
+                    <ion-input type="text" [(ngModel)]="alias" placeholder=""></ion-input>
+                </ion-item><br>
+            </ion-col>
+        </ion-row>
+
+    </ion-grid>
+
+</ion-content>

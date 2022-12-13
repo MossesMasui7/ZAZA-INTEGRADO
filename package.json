@@ -47,7 +47,7 @@
         "cordova-plugin-geolocation": "^4.0.2",
         "core-js": "^2.5.4",
         "cors": "^2.8.5",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "leaflet": "^1.6.0",
         "morgan": "^1.10.0",
         "ng-recaptcha": "^5.0.0",
